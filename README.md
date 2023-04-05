@@ -2,4 +2,6 @@
 
 Predictics daily maximum observed waveheight on northshore Oahu from offshore buoy data. This project is based on the project: https://github.com/benfreeston/surfline_recruitment_project.
 
-There are two notebooks, `data-processing.pynb` cleans and processes the data and `prediction-model.ipynb` builds a model to predict `Obs` from various features.
+There are two notebooks, `data-processing.ipynb` cleans and processes the data as well as makes exploratory plots, and `prediction-model.ipynb` builds a model to predict `Obs` from various features.
+
+`data` folder contains all the raw data and `processed_data.csv` is the output of the first notebook `data-processing.ipynb`.
